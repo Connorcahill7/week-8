@@ -5,6 +5,9 @@ In this exercise, you will create a Pokemon class and use it to simulate battles
 This demonstrates object-oriented programming principles: encapsulation, methods, and clear responsibilities.
 """
 
+#This is Connor Cahills work Student id: 201944641 
+
+
 import httpx
 
 
@@ -47,14 +50,14 @@ class Pokemon:
         defense = self._calculate_stat(base_stats["defense"])
         speed = self._calculate_stat(base_stats["speed"])
 
-        #store stats in a dict
+        #  stats in a dict
         self.stats = {
             "attack": attack,
             "defense": defense,
             "speed": speed
         }
 
-        #   hp stored separately
+        #   hp stored 
         self.max_hp = max_hp
         self.current_hp = max_hp
 
